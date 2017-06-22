@@ -18,7 +18,7 @@ to add a `package.json` to your project, run the commmand`npm init` , and accept
 
 `git commit -m "introductory definitions for node"`
 
-`git push orgin master`
+`git push origin master`
 
 
 ----

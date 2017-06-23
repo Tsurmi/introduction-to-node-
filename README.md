@@ -54,3 +54,27 @@ This also gives us a ton of code we do not care to track in our Github, in the `
 
 `touch .gitignore`
 add `node_module/` to `.gitignore`
+
+----
+#### Nodemon
+nodemon will watch our files automatically and restart our server so we don't have to do it manually.
+`nodemon index.js` -> to start server
+how to install: `sudo npm install -g nodemon`
+
+----
+#### POSTMAN
+
+When using postman you have to make sure that your names match in on your
+as well as in postman. 
+
+
+```js
+app.post('/fish', function(req, res){
+
+  var type = req.body.type;
+  var length = req.body.length;
+  var color = req.body.color;
+
+  var fish = {type: type, length: length, color: color};
+
+  res.json(fish); ```

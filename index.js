@@ -17,13 +17,15 @@ var instagrams = [
   { title: "Not my dog", date: makeDate(7), img: "http://barkingroyalty.com/wp-content/uploads/2015/12/Beagle-puppy.jpg?x30644" },
 ]
 
+app.use(express.static(__dirname + "/public"));
+
 app.get("/instagrams", function(req,res){
   res.json({message:"Found data", data: instagrams });
 });
 
 app.post("/instagrams", function(req,res){
 
-  var newGram = {title: req.body.title, img: req.body.image, date: madeDate(0)};
+  var newGram = {title: req.body.title, img: req.body.image, date: makeDate(0)};
   instagrams.push(newGram);
   res.json({message: "Post Success", data: instagrams });
 });

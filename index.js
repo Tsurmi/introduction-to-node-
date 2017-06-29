@@ -12,8 +12,8 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended:true }));
 
 var instagrams = [
-  { title: "My Dog", date: makeDate(10), img: "https://www.cesarsway.com/sites/newcesarsway/files/styles/large_article_preview/public/Shake-shiver-and-tremble-Why-dogs-do-it.jpg?itok=yvOUgQeL" },
-  { title: "Also my dog", date: makeDate(8), img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR04cM7atojGKtFOZTukDBBqvVy13OgO3ZPrib39rtHEE_qGhdh" },
+  { title: "My Dog", date: makeDate(10), img: "http://www.jpost.com/HttpHandlers/ShowImage.ashx?id=331766" },
+  { title: "Also my Dog", date: makeDate(8), img: "https://s-media-cache-ak0.pinimg.com/736x/91/32/c1/9132c1c095da3369c552d8e9b3afbcae.jpg" },
   { title: "Not my dog", date: makeDate(7), img: "http://barkingroyalty.com/wp-content/uploads/2015/12/Beagle-puppy.jpg?x30644" },
 ]
 

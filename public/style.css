@@ -1,0 +1,30 @@
+
+
+.body{
+  font-family: Arial Black;
+  color: black;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  background-color: #95a5a6
+
+}
+
+.jumbotron{
+  text-align: center;
+  color: #f1c40f;
+  border-radius: 80px;
+  border: solid 5px #2980b9;
+  background-color: #3498db;
+  display: inline;
+  cursor: pointer;
+
+}
+
+.image-holder{
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  margin-top: 2em
+  margin-bottom: 2em
+  background-color: #f1c40f;
+}

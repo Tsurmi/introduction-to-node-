@@ -12,11 +12,10 @@
 .jumbotron{
   text-align: center;
   color: #f1c40f;
-  border-radius: 80px;
   border: solid 5px #2980b9;
   background-color: #3498db;
   display: inline;
-  cursor: pointer;
+
 
 }
 
